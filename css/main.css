@@ -1,0 +1,29 @@
+body{
+    background-color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenitore{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    color: white;
+    margin: 10px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
